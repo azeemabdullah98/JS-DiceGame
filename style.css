@@ -24,8 +24,9 @@ body {
 
 /* LAYOUT */
 main {
-  position: relative;
+  /* position: relative; */
   max-width: 100rem;
+  margin: 0 auto;
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
@@ -36,8 +37,13 @@ main {
   display: flex;
 }
 
-.player {
+section {
+  position: relative;
   flex: 50%;
+  margin: 0 auto;
+}
+
+.player {
   padding: 9rem;
   display: flex;
   flex-direction: column;
@@ -87,7 +93,6 @@ main {
   /* width: 65%; */
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -114,12 +119,12 @@ main {
   border: none;
   font-family: inherit;
   font-size: 1.8rem;
-  display: flex;
-  align-items: center;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
+
+  display: flex;
 
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
