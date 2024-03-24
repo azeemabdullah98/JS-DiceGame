@@ -43,7 +43,7 @@
   }
 
   .current-label {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .current-score {
     font-size: 2rem;
@@ -97,11 +97,11 @@
     max-width: 35rem;
   }
   .name {
-    font-size: 0.7rem;
+    font-size: 1.4rem;
   }
   .btn {
-    font-size: 0.5rem;
-    padding: 0.5rem 2rem;
+    font-size: 0.7rem;
+    padding: 0.5rem 1.2rem;
   }
   .score {
     font-size: 3.2rem;
@@ -110,6 +110,6 @@
     height: 3rem;
   }
   .current-score {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
